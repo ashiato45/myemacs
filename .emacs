@@ -44,3 +44,6 @@
   (setq skk-large-jisyo "/media/sf_OneDrive/ドキュメント
 /skk/SKK-JISYO.L/SKK-JISYO.L")
 )
+
+;; http://syohex.hatenablog.com/entry/20110331/1301584188
+(show-paren-mode 1)
