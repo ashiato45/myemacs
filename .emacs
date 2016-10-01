@@ -126,6 +126,14 @@
 
   ;;  for inverse search
   (server-start)
+  
+  ;; https://twitter.com/hiroseyuuji/status/782197412332920832
+  (add-hook 'yatex-mode-hook
+	    '(lambda ()
+	       (define-key YaTeX-mode-map (kbd "C-c C-t")
+		 '(lambda()(interactive)(YaTeX-make-section nil nil nil "text")))
+	       ))
+  
   )
 
-;; 
+
