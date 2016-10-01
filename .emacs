@@ -35,10 +35,9 @@
   (require 'skk-study))                              ;;変換学習機能の追加
 
 ;; http://openlab.ring.gr.jp/skk/skk-manual-git/Zui-moJi-Ben-De-naShe-Ding-.html
-(when (file-exists-p "C:/Users/ashia/OneDrive/ドキュメント
-/skk/SKK-JISYO.L/SKK-JISYO.L")
+(when (file-exists-p "C:/Users/ashia/OneDrive/ドキュメント/skk/SKK-JISYO.L/SKK-JISYO.L")
   (setq skk-large-jisyo "C:/Users/ashia/OneDrive/ドキュメント/skk/SKK-JISYO.L/SKK-JISYO.L")
-)
+  )
 (when (file-exists-p "/media/sf_OneDrive/ドキュメント
 /skk/SKK-JISYO.L/SKK-JISYO.L")
   (setq skk-large-jisyo "/media/sf_OneDrive/ドキュメント
@@ -128,3 +127,5 @@
   ;;  for inverse search
   (server-start)
   )
+
+;; 
